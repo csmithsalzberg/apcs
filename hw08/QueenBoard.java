@@ -1,3 +1,8 @@
+// Caleb Smith-Salzberg
+// APCS2 pd5
+// HW08 -- Luxembourg Beckons
+// 2017-02-16
+
 /***
  * class QueenBoard
  * Generates solutions for N-Queens problem.
