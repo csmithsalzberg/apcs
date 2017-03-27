@@ -24,7 +24,10 @@ public class Scheme
      ******************************************************/
     public static String evaluate( String expr ) 
     {
-	/* YOUR IMPLEMENTATION HERE */
+	String[] words = expr.split("\\s+");
+	Stack<String> tastyStack = new ALStack<String>(words.length);
+	for (int i; i<words.length; i++)
+	    tastyStack.push(words.get(i))
     }
 
 
