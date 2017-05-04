@@ -127,7 +127,12 @@ public class BST
      *****************************************************/
     public int height() //h of L, h of R, add 1
     {
-    	/*** YOUR IMPLEMENTATION HERE ***/
+    	retrun 1 + totalh(root);
+    }
+    public int height(root){
+	if (root.getleft==null && root.getRight==null)
+	    return 1;
+	return max(height(root.getLeft),height(root.getRight()));
     }
 
 
